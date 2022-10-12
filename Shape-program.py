@@ -3,6 +3,7 @@ import turtle
 print("-------For Printing The Shape You Have To Put Number-------")
 print("For Creation Of Triangle Press [1]:--")
 print("For Creation Of Square Press   [2]:--")
+print("           TO Exit             [3]:--")
 a = int(input("Enter Number"))
 for j in a:
    if a==1:
@@ -47,3 +48,57 @@ for j in a:
       for i in range(10):
          squa(side)
          side-= 20
+   
+   elif a==3:
+      break
+   
+   else:
+      break
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
