@@ -1,9 +1,11 @@
 import turtle
+import matplotlib.pyplot as plt
 
 print("-------For Printing The Shape You Have To Put Number-------")
 print("For Creation Of Triangle Press [1]:--")
-print("For Creation Of Square Press   [2]:--")
-print("           TO Exit             [3]:--")
+print("For Creation Of Square Shape   [2]:--")
+print("For Creation Of Pentagon Shape [3]:--")
+print("           TO Exit             [4]:--")
 a = int(input("Enter Number"))
 for j in a:
    if a==1:
@@ -50,6 +52,14 @@ for j in a:
          side-= 20
    
    elif a==3:
+      sp = [[1,1], [2,1], [2,2], [1,2], [0.5,1.5]]
+      sp.append(sp[0]) 
+      s1, s2 = zip(sp)
+      plt.figure()
+      plt.plot(s1,s2) 
+      plt.show() 
+         
+   elif a==4:
       break
    
    else:
