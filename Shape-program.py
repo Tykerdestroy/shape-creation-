@@ -24,6 +24,8 @@ for j in a:
       my_pen = turtle.Turtle()
       my_pen.color("white")
       a = turtle.Screen()
+      print(a)
+      a.Screen()
 
       side = 300
 
